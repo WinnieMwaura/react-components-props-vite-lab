@@ -1,31 +1,31 @@
-import logo from "../assets/logo";
-
-const blogData = {
-  name: "Underreacted",
-  image: logo,
-  about: "A blog about learning React",
+const blog = {
+  name: "Winnie's World",
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Gatto_europeo4.jpg/320px-Gatto_europeo4.jpg",
+  about:
+    "Welcome! I'm Winnie — a software developer, lifelong learner, and occasional over-thinker. This blog is where I share what I'm building, breaking, and figuring out along the way.",
   posts: [
     {
       id: 1,
-      title: "Components 101",
-      date: "December 15, 2020",
-      preview: "Setting up the building blocks of your site",
-      minutes: 5,
+      title: "Getting Started with React Props",
+      date: "April 28, 2025",
+      preview:
+        "Props are the backbone of React's component model. In this post, I break down how data flows from parent to child and why understanding it unlocks everything else.",
     },
     {
       id: 2,
-      title: "React Data Flow",
-      date: "December 11, 2020",
-      preview: "Passing props is never passé",
-      minutes: 15,
+      title: "Why I Switched to Vite",
+      date: "May 3, 2025",
+      preview:
+        "Create React App served us well, but Vite is faster, leaner, and frankly more fun to work with. Here's my migration story and what I learned along the way.",
     },
     {
       id: 3,
-      title: "Function vs Class Components",
-      preview: "React, meet OOJS.",
-      minutes: 47,
+      title: "Component Trees: Thinking in React",
+      date: "May 10, 2025",
+      preview:
+        "Before writing a single line of JSX, I now sketch the component tree. This simple habit has saved me from countless refactors. Let me show you how I do it.",
     },
   ],
 };
 
-export default blogData;
+export default blog;
